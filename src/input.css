@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sectionHeader{
+    @apply flex justify-center text-center font-extrabold text-6xl mt-24 mb-16;
+}
+.title{
+    @apply font-bold text-6xl my-4;
+}
+.subTitle{
+    @apply font-bold text-xl my-4;
+}
+.paragraph{
+    @apply text-sm mb-6;
+}
+.bDets{
+   @apply font-extrabold tracking-widest text-gray-600 text-lg mt-16;
+}
+.dets{
+    @apply text-sm font-extrabold tracking-wide mt-16;
+}
