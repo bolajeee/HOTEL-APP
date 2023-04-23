@@ -1678,4 +1678,9 @@ video {
   .lg\:hidden {
     display: none;
   }
+
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
