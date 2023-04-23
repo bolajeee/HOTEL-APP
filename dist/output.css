@@ -704,6 +704,16 @@ video {
   margin-right: 0px;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .-mr-\[100\%\] {
   margin-right: -100%;
 }
@@ -860,6 +870,18 @@ video {
   margin-right: auto;
 }
 
+.ml-\[25\%\] {
+  margin-left: 25%;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mr-\[15\%\] {
+  margin-right: 15%;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -930,6 +952,22 @@ video {
 
 .h-60 {
   height: 15rem;
+}
+
+.h-\[550px\] {
+  height: 550px;
+}
+
+.h-\[6500px\] {
+  height: 6500px;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
+.h-\[450px\] {
+  height: 450px;
 }
 
 .\!w-px {
@@ -1009,6 +1047,14 @@ video {
   width: 55%;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[full\] {
+  width: full;
+}
+
 .flex-initial {
   flex: 0 1 auto;
 }
@@ -1031,6 +1077,14 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-end {
@@ -1292,6 +1346,11 @@ video {
   line-height: 1;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1512,6 +1571,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1549,6 +1616,21 @@ video {
   .md\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .md\:mx-\[5\%\] {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .md\:mx-\[15\%\] {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .md\:mt-\[10\%\] {
@@ -1599,6 +1681,14 @@ video {
     margin-left: 11rem;
   }
 
+  .md\:ml-\[5\%\] {
+    margin-left: 5%;
+  }
+
+  .md\:ml-\[45\%\] {
+    margin-left: 45%;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1630,6 +1720,10 @@ video {
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
   }
 
   .md\:grid-cols-4 {
