@@ -1633,6 +1633,11 @@ video {
     margin-right: 0px;
   }
 
+  .md\:mx-\[auto\] {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:mt-\[10\%\] {
     margin-top: 10%;
   }
@@ -1687,6 +1692,10 @@ video {
 
   .md\:ml-\[45\%\] {
     margin-left: 45%;
+  }
+
+  .md\:ml-\[25\%\] {
+    margin-left: 25%;
   }
 
   .md\:block {
