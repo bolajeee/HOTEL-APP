@@ -882,6 +882,14 @@ video {
   margin-right: 15%;
 }
 
+.ml-\[60\%\] {
+  margin-left: 60%;
+}
+
+.ml-\[65\%\] {
+  margin-left: 65%;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -1310,6 +1318,10 @@ video {
 
 .text-start {
   text-align: start;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .-indent-\[999px\] {
